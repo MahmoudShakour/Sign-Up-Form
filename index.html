@@ -8,6 +8,82 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
-</body>
+    <div class="page">
+
+        <header>
+            <a href="#">Home</a>
+            <a href="#">Sign in</a>
+        </header>
+        
+        <div class="content">
+            <div class="photo-section">
+                <img src="./images/background.jpg" alt="" class="background-photo">
+                <div class="odin-logo">
+                    <img src="./images/odin-logo.png" alt="" class="logo-photo">
+                    <p class="odin-word">ODIN</p>
+                </div>
+            </div>
+            <form action="#" method="post" class="form">
+                <p class="paragraph-one">
+                    this is not a real online service!
+                    You know you need something like this in your life
+                    to help you realize your deepest dreams.
+                    Sign up now to get started. 
+                </p>
+                <p class="paragraph-two">
+                    You know you want to.
+                </p>
+                
+                <fieldset class="input-section">
+                    <legend>
+                        Let's do this!
+                    </legend>
+                    
+                    <div>
+                        <label for="first-name">first Name</label>
+                        <input type="text" name="userFirstName" id="first-name" required>
+                    </div>
+                    
+                    <div>
+                        <label for="last-name">last Name</label>
+                        <input type="text" name="userLastName" id="last-name" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" name="userEmail" id="email"required>
+                    </div>
+                    
+                    <div>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="userPhoneNumber" id="phone-number" required>
+                    </div>
+                    
+                    <div>
+                        <label for="password">password</label>
+                        <input type="password" name="userPassword" id="password" required minlength="6" maxlength="30">
+                    </div>
+                    
+                    <div>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="userConfirmPassword" id="confirm-password" required minlength="6" maxlength="30">
+                    </div>
+                    
+                </fieldset>
+                
+                <button class="create-account">
+                    create Account
+                </button>
+                
+                <p class="log-in">
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+            </form>
+        </div>
+        
+        <footer>
+            <p> Copyright © 2023 MahmoudShakour </p>
+        </footer>
+        </div>
+    </body>
 </html>

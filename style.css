@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    background-color: #fff;
+    width: 1640px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    background-color: #fff;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #596D48;
+    font-size: 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+}
+
+.photo-section{
+    width: 50%;
+    position: relative;
+}
+
+.background-photo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.odin-logo{
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;   
+    padding: 20px 0 20px 0;
+    width: 100%;
+    height: 100px;
+    gap: 20px;
+}
+
+.logo-photo{
+    height: 90%;
+}
+
+.odin-word{
+    font-size: 50px;
+    color: white;
+    font-size: 100px;
+}
+
+
+
+.paragraph-one{
+    font-size: 20px;
+    padding: 200px 200px 20px 20px;
+    font-weight: 700;
+}
+
+.paragraph-two{
+    font-size: 20px;
+    padding: 20px 200px 50px 20px;
+    font-weight: 700;
+}
+
+
+.input-section{
+    border: none;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 100px 40px 30px;
+    position: relative;
+}
+
+.input-section > div{
+    margin: 20px 100px 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 2px;
+    border: 2px solid black;
+    height: 20px;
+    width: 250px;
+    border-color: #E5E7EB;
+}
+
+input:focus{
+    border-color: blue;
+    box-shadow: 1px;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+footer>p{
+    color: black;
+    padding: 20px;
+}
+
+form{
+    background-color: #E5E7EB;
+}
+
+.create-account{
+    font-size: 20px;
+    background-color: #596D48;
+    margin: 30px 0 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.log-in{
+    margin: 30px;
+    font-size: large;
+}
+
+.log-in>a{
+    padding: 0;
+}
+
+.input:invalid{
+    border: 2px solid red;
+}
+
+input:invalid { 
+    color: red; 
+}
